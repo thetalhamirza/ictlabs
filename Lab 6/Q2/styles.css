@@ -1,0 +1,16 @@
+
+
+a:link {
+    color: maroon;
+    background-color: whitesmoke;
+}
+a:visited   {
+    color: green;
+    
+}
+a:hover   {
+    color: white;
+    background-color: black;
+}
+
+
