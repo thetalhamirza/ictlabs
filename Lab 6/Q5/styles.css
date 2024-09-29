@@ -1,0 +1,72 @@
+body {
+    background-color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.feedback-container {
+    background: rgb(255, 249, 244);
+    border-radius: 8px;
+    padding: 20px;
+    width: 550px;
+    box-shadow: 0 2px 13px rgba(0,0,0,0.1);
+}
+
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.feedback-inputs {
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+    display: block;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+    outline: none;
+    border-color: darkblue;
+}
+
+.rating {
+    margin: 10px 0;
+}
+
+.rating label {
+    margin-right: 15px;
+}
+
+.submit-button {
+    border: none;
+    background-color: rgb(255, 249, 244);
+    padding: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+.submit-button:hover {
+    background-color: black;
+    color: whitesmoke;
+}

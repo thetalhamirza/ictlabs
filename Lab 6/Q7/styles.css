@@ -1,0 +1,94 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #fff4ea;
+}
+
+.hero {
+    background: url(hero.jfif) no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: auto;
+}
+
+.cta-button {
+    background-color: whitesmoke;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.about-us, .services, .contact-us {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.aboutus-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.aboutus-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    transition: transform 0.3s;
+}
+
+li:hover {
+    transform: scale(1.1);
+}
+
+.form-input {
+    margin-bottom: 15px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.submit-button {
+    background-color: whitesmoke;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: black;
+    color: whitesmoke;
+}
+
