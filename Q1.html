@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+    <title>Color Change</title>
+    <script>
+    let i = 1;
+    const color = ["red", "blue", "green", "yellow", "purple", "orange"];
+    function colorChange()  {
+        
+        document.body.style.backgroundColor = color[i];
+        i++;
+        if (i == 6) { i = 1 }
+
+    
+    }
+    </script>
+</head>
+<body>
+
+    <button type="button" onclick="colorChange()">Change!</button>
+
+    
+</body>
+</html>
