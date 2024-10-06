@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <title>Removinator</title>
+</head>
+<body>
+    <h1>Grocery List</h1>
+    <ul id="groceryList">
+        <!-- <li>Apple</li>
+        <li>Banana</li>
+        <li>Orange</li>
+        <li>Watermelon</li>
+        <li>Biscuit</li>
+        <li>Chips</li>
+        <li>Medications</li> -->
+    </ul>
+
+    <script>
+        const grocery = ["apple", "banana", "orange", "watermelon", "biscuits", "chips", "medications"]
+        for (let i = 0; i < grocery.length; i++) { 
+            document.getElementById("groceryList").innerHTML += ("<li>" + grocery[i] + "</li>");
+
+        }
+        
+        
+        function popItem()  {
+            grocery.pop();
+            document.getElementById("groceryList").innerHTML = '';
+            for (let i = 0; i < grocery.length; i++) {
+                document.getElementById("groceryList").innerHTML += ("<li>" + grocery[i] + "</li>");
+    
+            }
+        }
+    
+    </script>
+
+    <button onclick="popItem()">pop</button>
+</body>
+</html>

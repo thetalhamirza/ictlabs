@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+    <title>Title Color Changinator</title>
+</head>
+<body>
+    <h1 id="title">LETS GOO</h1>
+    <script>
+        let i = 0
+        const color = ["red", "green", "blue"]
+        function changeColor() {
+            document.getElementById("title").style.color = color[i]
+            i++;
+            if (i == 3) {i = 0}
+        }
+
+    </script>
+    <button onclick="changeColor()">CHANGE!</button>
+</body>
+</html>
